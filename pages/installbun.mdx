@@ -1,0 +1,37 @@
+import { Steps } from 'nextra/components';
+
+# How to install bun
+
+<Steps>
+    ### Step 1 
+    Copy this and Paste your terminal.
+
+    ```command filename="terminal" copy
+    curl -fsSL https://bun.sh/install | bash
+
+    ```
+    ### Step 2
+    Set a path your macbook.
+
+    ```command filename="terminal" copy
+    echo 'export PATH="$HOME/.bun/bin:$PATH"' >> ~/.zshrc
+    source ~/.zshrc
+
+    ```
+    ### Step 3
+    Check your `bun` version.
+
+    ```command filename="terminal" copy
+    bun --version
+
+    ```
+
+    ### Step 4
+    All done! You can use `bun` command to start the project.
+
+    ```command filename="terminal" copy
+    bun s
+
+    ```
+
+  </Steps>

@@ -1,15 +1,13 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "install": "Copy from repository",
+  "installbun": "Install bun",
+  "components": "Components",
+  "pull": "Pull",
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://twitter.com/10_uis",
     "newWindow": true
   }
 }
