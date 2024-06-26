@@ -43,6 +43,11 @@ const config: DocsThemeConfig = {
       />
     </svg>
   ),
+  head: (
+    <>
+      <link rel='icon' href='logo.ico' />
+    </>
+  ),
   project: {
     link: 'https://github.com/10-ui/torekore',
   },
